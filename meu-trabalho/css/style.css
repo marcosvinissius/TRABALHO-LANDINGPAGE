@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(255, 0, 0);
 }
 
 /* BOTÃO PESQUISA */
@@ -75,6 +75,13 @@ ul {
 
 .banner-img {
     background-color: rgba(255, 255, 0, 0.795);
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-banner {
+    display: flex;
+    justify-content: space-between;
 }
 
 .header-box {
@@ -103,7 +110,7 @@ ul {
 
 .slider {
     margin-bottom: 60px;
-    width: 300px;
+    width:300px;
     height: 300px;
     overflow: hidden;
     border-radius: 5px;
@@ -112,7 +119,7 @@ ul {
 .slides {
     width: 400%;
     height: 40px;
-    display: flex;  
+    display: flex;
 }
 
 .slides input {
@@ -123,7 +130,6 @@ ul {
     width: 300px;
     height: 300px;
     position: relative;
-
 }
 
 .slide img {
@@ -217,6 +223,7 @@ ul {
 .banner-img {
     display: ruby-base-container;
     text-align: left;
+    justify-content: space-between;
 }
 
 .banner {
@@ -307,4 +314,14 @@ span {
     border-radius: 5px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
+}
+
+/* RODAPÉ */
+
+.box-rdp {
+    display: block;
+    gap: 50px;
+    padding-bottom: 20px;
+    color: azure;
+    font-size: 80%;
 }
