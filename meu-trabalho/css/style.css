@@ -4,6 +4,8 @@
     box-sizing: 0;
 }
 
+
+
 body {
     background-color: rgb(255, 0, 0);
 }
@@ -353,4 +355,45 @@ span {
 
 .btn-inside {
     margin: 10px;
+}
+
+@media (max-width: 507px) {
+    .header-box {
+        display: flex;
+    }
+    
+    body {
+        width: 200vw;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+    }
+
+    .products {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .products div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .products span {
+        margin-right: 300px;
+    }
+
+    .image-products {
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    h5 {
+        margin-left: 0;
+    }
 }
